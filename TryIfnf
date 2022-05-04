@@ -1,0 +1,35 @@
+local plr = game.Players.LocalPlayer
+
+local gamepass = plr:WaitForChild("Gamepasses")
+
+local autoRebirth = gamepass:WaitForChild("AutoRebirth")
+
+local Explosive = gamepass:WaitForChild("ExplosiveCursors")
+
+local vip = gamepass:WaitForChild("VIP")
+
+local luck = gamepass:WaitForChild("Luck")
+
+local sprint = gamepass:WaitForChild("Sprint")
+
+local tripleHatch = gamepass:WaitForChild("TripleHatch")
+
+local unli = gamepass:WaitForChild("UnlimitedPets")
+
+autoRebirth.Value = true 
+
+Explosive.Value = true
+
+vip.Value = true
+
+luck.Value = true
+
+sprint.Value = true
+
+tripleHatch.Value = true 
+
+unli.Value = true
+
+wait(5)
+
+print("Was Gamepass on true")
